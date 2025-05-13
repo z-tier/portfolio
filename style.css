@@ -39,6 +39,7 @@ section {
   background-color: #1a1a1a;
   border-radius: 8px;
   box-shadow: 0 0 10px #00000050;
+  padding: 1.5rem; /* 24px on all sides */
 }
 
 section h2 {
