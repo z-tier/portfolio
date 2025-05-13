@@ -39,7 +39,7 @@ header p {
 section {
   max-width: 800;
   margin: 0 auto 40 auto;
-  padding: 20;
+  /* padding: 20; */
   background-color: #1a1a1a;
   border-radius: 8;
   box-shadow: 0 0 10 #00000050;
