@@ -27,6 +27,7 @@ body {
   flex: 1;
   min-width: 250px;
   padding: 4rem;
+  padding-top: 8rem;
 }
 
 .title-line {
