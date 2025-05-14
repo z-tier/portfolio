@@ -59,8 +59,8 @@ a:hover {
   text-decoration: underline;
 }
 
-/* === Verse or Footer (Optional) === */
-.verse {
+/* === Footer === */
+footer {
   margin-top: 1rem;
   font-size: 0.9rem;
   color: #2c1e17;
