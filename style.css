@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* prevents stacking on wide screens */
   margin-bottom: 40px;
   gap: 20px;
 }
@@ -40,18 +40,23 @@ body {
   margin-bottom: 15px;
 }
 
-/* Bio Box under Name + Subtitle */
+/* Bio Box */
 .bio-box {
   background-color: #ffffff;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  max-width: 500px;
+  max-width: 100%;
+  margin-top: 10px;
 }
 
 /* Right Side (Image) */
 .profile-image {
   flex-shrink: 0;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-pic {
@@ -115,17 +120,17 @@ footer {
 
 /* Responsive Layout */
 @media (max-width: 900px) {
-  .info-row .info-box {
-    max-width: 100%;
-  }
-
   .profile-section {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  .profile-text {
-    align-items: center;
+  .profile-image {
+    margin-top: 20px;
+  }
+
+  .info-row .info-box {
+    max-width: 100%;
   }
 }
