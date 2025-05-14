@@ -99,6 +99,7 @@ body {
 .info-box p,
 .info-box ul {
   font-size: 1rem;
+  padding-left: 1.5rem;
   line-height: 1.6;
   color: #dedede;
 }
