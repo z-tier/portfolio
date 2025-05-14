@@ -91,10 +91,11 @@ body {
   border-radius: 15px;
   padding: 25px;
   flex: 1;
-  min-width: 280px;
-  max-width: 32%;
+  width: 100%;
+  max-width: 700px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 /* Info Box Content */
