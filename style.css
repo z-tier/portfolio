@@ -32,12 +32,15 @@ body {
   font-size: 3rem;
   color: #dedede;
   margin-bottom: 5px;
+  padding-left: 2rem;
 }
 
 .site-subtitle {
   font-size: 1.2rem;
   color: #aaa;
   margin-bottom: 15px;
+  padding-left: 2rem;
+  text-transform: uppercase;
 }
 
 /* Bio Box */
@@ -121,6 +124,7 @@ footer {
   font-size: 0.9rem;
   color: #888;
   margin-top: 40px;
+  text-transform: uppercase;
 }
 
 /* Responsive Layout */
