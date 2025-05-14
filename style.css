@@ -67,19 +67,17 @@ body {
 }
 
 .contact-line a {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   margin-top: 10px;
-  padding-left: 4rem;
   color: #faae00;
   text-decoration: none;
   font-weight: 500;
-  color: #ffd35c;
+  color: #faae00;
 }
 
 .contact-line a:hover {
   font-size: 0.9rem;
   margin-top: 10px;
-  padding-left: 4rem;
   color: #ffd35c;
 }
 
@@ -144,14 +142,14 @@ body {
 }
 
 .languages h3 {
-  color: #faae00
-  margin-top: 10px;
+  color: #faae00;
+  margin-top: 1rem;
 }
 
 .languages ul {
   font-size: 1rem;
   padding-left: 1.5rem;
-  color: #dedede
+  color: #dedede;
 }
 
 .info-box a {
