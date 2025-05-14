@@ -119,6 +119,17 @@ body {
   color: #dedede;
 }
 
+.languages h3 {
+  color: #faae00
+  margin-top: 10px;
+}
+
+.languages ul {
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  color: #dedede
+}
+
 .info-box a {
   color: #faae00;
   text-decoration: none;
