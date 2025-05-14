@@ -28,6 +28,12 @@ body {
   min-width: 250px;
 }
 
+.title-line {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
 .site-title {
   font-size: 3rem;
   color: #dedede;
