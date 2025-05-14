@@ -99,7 +99,12 @@ body {
   color: #f5f5f5;
 }
 
-.info-box p,
+.info-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #dedede;
+}
+
 .info-box ul {
   font-size: 1rem;
   padding-left: 1.5rem;
