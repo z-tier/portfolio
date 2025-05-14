@@ -59,6 +59,30 @@ body {
   font-size: 2rem;
 }
 
+.contact-line {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  padding-left: 4rem;
+  color: #aaa;
+}
+
+.contact-line a {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  padding-left: 4rem;
+  color: #faae00;
+  text-decoration: none;
+  font-weight: 500;
+  color: #ffd35c;
+}
+
+.contact-line a:hover {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  padding-left: 4rem;
+  color: #ffd35c;
+}
+
 /* Right Side (Image) */
 .profile-image {
   flex-shrink: 0;
