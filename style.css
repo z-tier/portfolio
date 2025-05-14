@@ -1,4 +1,4 @@
-/* General Reset and Base Styles */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,65 +12,24 @@ body {
   padding: 20px;
 }
 
-/* Title */
-.site-title {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  color: #222;
-}
-
-/* Profile Container */
-.profile-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+/* Header (Not in a box) */
+.profile-header {
+  text-align: center;
   margin-bottom: 30px;
 }
 
-/* Left Box */
-.profile-left-box {
-  flex: 1;
-  min-width: 250px;
-  background-color: #ffffff;
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+.site-title {
+  font-size: 3rem;
+  color: #222;
 }
 
-/* Right Box (Image) */
-.profile-right-box {
-  flex-shrink: 0;
-  background-color: #ffffff;
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.profile-right-box img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid #ddd;
-}
-
-/* Subtitle and Bio */
-.subtitle {
+.site-subtitle {
   font-size: 1.2rem;
   color: #777;
-  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
-.bio {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #555;
-}
-
-/* Info Boxes */
+/* Info Box Style */
 .info-box {
   background-color: #ffffff;
   border-radius: 15px;
@@ -79,9 +38,41 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
+/* Profile Image Box */
+.profile-image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ddd;
+}
+
+/* Info Row = HBoxContainer like in Godot */
+.info-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* Boxes in Row */
+.info-row .info-box {
+  flex: 1;
+  min-width: 280px;
+  max-width: 32%;
+  box-sizing: border-box;
+}
+
+/* Content Styles */
 .info-box h2 {
-  margin-bottom: 15px;
   font-size: 1.6rem;
+  margin-bottom: 15px;
   color: #111;
 }
 
@@ -90,7 +81,6 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   color: #444;
-  padding: 1rem;
 }
 
 .info-box a {
@@ -107,7 +97,11 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   color: #777;
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #ddd;
+}
+
+/* Stack boxes on smaller screens */
+@media (max-width: 900px) {
+  .info-row .info-box {
+    max-width: 100%;
+  }
 }
