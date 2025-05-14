@@ -60,14 +60,14 @@ body {
 }
 
 .contact-line {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   margin-top: 10px;
   padding-left: 4rem;
   color: #aaa;
 }
 
 .contact-line a {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-top: 10px;
   color: #faae00;
   text-decoration: none;
