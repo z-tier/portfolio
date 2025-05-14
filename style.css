@@ -32,7 +32,7 @@ body {
 
 .site-title {
   font-size: 5rem;
-  color: #dedede;
+  color: #faae00;
   margin-bottom: -10px;
   padding-left: 2rem;
 }
@@ -103,7 +103,7 @@ body {
 .info-box h2 {
   font-size: 1.6rem;
   margin-bottom: 15px;
-  color: #f5f5f5;
+  color: #faae00;
 }
 
 .info-box p {
