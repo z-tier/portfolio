@@ -30,16 +30,10 @@ body {
   padding-top: 8rem;
 }
 
-.title-line {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-}
-
 .site-title {
-  font-size: 3rem;
+  font-size: 5rem;
   color: #dedede;
-  margin-bottom: 5px;
+  margin-bottom: -10px;
   padding-left: 2rem;
 }
 
@@ -48,7 +42,6 @@ body {
   color: #aaa;
   font-weight: normal;
   margin-bottom: 15px;
-  padding-left: 2rem;
   text-transform: uppercase;
 }
 
